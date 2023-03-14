@@ -1,0 +1,46 @@
+
+.main-sidebar{
+    min-width: fit-content;
+}
+
+.logo{
+    min-width: 100px;
+}
+
+.active{ 
+    color: #eab308;
+}
+.main-section-products,.self-help-books,.smart-phones-products,.laptop-products{
+    overflow-x:scroll;
+}
+
+.main-section-products::-webkit-scrollbar,.self-help-books::-webkit-scrollbar,.smart-phones-products::-webkit-scrollbar,.laptop-products::-webkit-scrollbar{
+    height: 8px;
+}
+
+.main-section-products::-webkit-scrollbar-track,.self-help-books::-webkit-scrollbar-track,.smart-phones-products::-webkit-scrollbar-track,.laptop-products::-webkit-scrollbar-track{
+    background: #eee;
+    border-radius: 4px;
+}
+
+.main-section-products::-webkit-scrollbar-thumb,.self-help-books::-webkit-scrollbar-thumb,.smart-phones-products::-webkit-scrollbar-thumb,.laptop-products::-webkit-scrollbar-thumb{
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+.hide{
+    transition: 0.5s all ease;
+    display: none;
+}
+
+.product-image img:hover{
+    transition: 0.3s all ease;
+    transform: scale(1.12);
+    cursor:zoom-in;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+  
+}

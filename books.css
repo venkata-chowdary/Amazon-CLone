@@ -1,0 +1,17 @@
+/* .category-product{
+    position: relative;
+}
+
+.category-name{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: min-content;
+    display: block;
+}
+
+.category-product:hover .category-name{
+    transition: 0.3s all ease;
+    display: block;
+} */
